@@ -1,28 +1,34 @@
 {
   "expo": {
-    "name": "puff",
-    "slug": "puff",
+    "name": "smartmongers",
+    "slug": "smartmongers",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#040302"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+
+
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartmongers.smartmongers",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.smartmongers.smartmongers",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#040302"
       }
     },
     "web": {
